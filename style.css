@@ -1,0 +1,219 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  color: black;
+  background-image: url(imgs/background\ 1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Nav bar 
+-----------------------------------------------------------------------------------------------------
+*/
+
+header {
+  height: fit-content;
+  width: 100%;
+}
+nav {
+  width: 100%;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  background-color: rgb(165, 165, 165);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#right_nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#left_nav {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+#CMP_name {
+  font-size: 1.4rem;
+}
+#logo {
+  width: 40px;
+}
+ul {
+  list-style-type: none;
+}
+.nav li {
+  padding: 10px 15px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+#right_nav li:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+#img_border {
+  background-color: black;
+  border-radius: 50%;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* Main body 
+-----------------------------------------------------------------------------------------------------
+*/
+
+#box {
+  width: 60%;
+  margin: 2vh auto;
+  min-height: 50vh;
+  background-color: rgba(165, 165, 165, 0.583);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 5px 5px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input,
+textarea,
+#img_User p {
+  width: 90%;
+  margin: 2px auto;
+  padding: 5px 10px;
+  resize: none;
+  border: 3px #727070 solid;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+#img_User {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 2px auto;
+}
+#img_User p {
+  width: 170px;
+  border: none;
+}
+#img_User input {
+  border: none;
+}
+#img_User {
+  width: 55.5vw;
+  border: 3px #727070 solid;
+  background-color: white;
+}
+#add {
+  background-color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  border: 3px #727070 solid;
+  border-radius: 15px;
+  margin: 2px 4% 2px auto;
+}
+.line {
+  width: 50%;
+  margin: 2px auto;
+  background-color: #727070;
+  height: 3px;
+}
+
+/* Records */
+.record {
+  width: 90%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px auto;
+  box-sizing: border-box;
+  padding: 3px;
+  border: 3px #727070 solid;
+}
+.record p,
+.record p span {
+  font-size: 13px;
+}
+.record img {
+  border: 1px #727070 solid;
+  margin: 0px 5px;
+}
+#text p {
+  margin: 7px auto;
+}
+#text {
+  width: 90%;
+}
+
+#help {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(165, 165, 165);
+  color: black;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+#help:hover {
+  background-color: black;
+  color: white;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+/* Help section */
+
+#he {
+  background-color: rgb(219, 219, 219);
+  width: 80%;
+  margin: 70px auto;
+  padding: 10px;
+  position: fixed;
+  z-index: 15;
+  min-height: 300px;
+  height: fit-content;
+  display: none;
+  left: 125px;
+  box-shadow: 0px 0px 100px 50px white;
+  border: 4px black solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#he h2 {
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+}
+#he ul {
+  list-style-type: circle;
+  width: 80%;
+}
+#he ul li {
+  margin: 7px auto;
+  font-style: italic;
+}
+#he ul li ul {
+  font-style: normal;
+  list-style-type: square;
+  width: 80%;
+  margin: 0px auto;
+}

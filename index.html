@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="imgs/school_title.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <button id="help" checker="off">?</button>
+    <div id="he">
+      <h2>Help section</h2>
+      <ul id="hints">
+        <li>
+          This is a help section you can read it if you are facing some issues
+          with the webpage.
+        </li>
+        <li>
+          Updates:
+          <ul>
+            <li>Image upload feature is in beta phase.(Try avoiding)</li>
+            <li>The Light and Dark buttons are in beta phase.(Try avoiding)</li>
+          </ul>
+        </li>
+        <li>
+          About this web page: <br />
+          This web page is just a project using vanilla Java Script
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+          fugiat.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+          fugiat.
+        </li>
+      </ul>
+    </div>
+    <header>
+      <nav>
+        <ul id="left_nav" class="nav">
+          <li id="img_border">
+            <img src="imgs/school_title.ico" alt="logo" id="logo" />
+          </li>
+          <li id="CMP_name">STU-iD</li>
+        </ul>
+        <ul id="right_nav" class="nav">
+          <li>Light</li>
+          <li>Dark</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="box">
+        <div class="input">
+          <input
+            class="inp"
+            type="text"
+            name="Name"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <div id="img_User">
+            <p>Upload your Photo:</p>
+            <input
+              class="inp"
+              type="file"
+              name="File"
+              id="file"
+              placeholder="Upload Image"
+            />
+          </div>
+          <textarea
+            class="inp"
+            name="Desc"
+            id="desc"
+            cols="30"
+            rows="3"
+            placeholder="Enter your description"
+          ></textarea>
+          <button id="add">Add below</button>
+        </div>
+        <div class="line"></div>
+        <!--  -->
+        <div id="cont">
+          <!-- <div class="record">
+            <img src="imgs/user1.png" alt="" width="50px" height="60px" />
+            <div id="text">
+              <p>Name: <span>Jatin sharma</span></p>
+              <p>
+                About:
+                <span
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae sit voluptatum officia modi ipsum tenetur, magnam
+                  ipsam itaque accusantium nulla expedita iure quibusdam facere
+                  nostrum! Nihil reprehenderit doloremque aliquid
+                  architecto...</span
+                >
+              </p>
+            </div>
+          </div> -->
+        </div>
+        <!--  -->
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
