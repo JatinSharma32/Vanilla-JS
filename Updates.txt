@@ -1,0 +1,4 @@
+[8 Sep 2022]: Replaced input for image with Image link(URL) Insted of actual file.
+            : Some Design updates in help section
+            : Added feature which checks if any field is empty
+            : Also if About field is longer(more then 210 char), then it will be shorten down.

@@ -23,28 +23,45 @@
     <div id="he">
       <h2>Help section</h2>
       <ul id="hints">
+        <div class="line_long"></div>
         <li>
-          This is a help section you can read it if you are facing some issues
-          with the webpage.
-        </li>
-        <li>
-          Updates:
+          <b>Information</b>
           <ul>
-            <li>Image upload feature is in beta phase.(Try avoiding)</li>
-            <li>The Light and Dark buttons are in beta phase.(Try avoiding)</li>
+            <li>
+              This is a help section you can read it if you are facing some
+              issues with the webpage.
+            </li>
+            <li>This web page is just a project using vanilla Java Script</li>
+            <li>
+              Upload your Image of size (50 x 60)px on any online server and
+              paste its link in input.
+            </li>
           </ul>
         </li>
+        <div class="line_long"></div>
         <li>
-          About this web page: <br />
-          This web page is just a project using vanilla Java Script
+          <b>
+            Updates(Check
+            <a
+              href="https://github.com/JatinSharma32/Vanilla-JS"
+              target="_blank"
+              >Update.txt</a
+            >
+            for more info):</b
+          >
+          <ul>
+            <li>
+              Replaced input for image with Image link(URL) Insted of actual
+              file
+            </li>
+          </ul>
         </li>
+        <div class="line_long"></div>
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
-          fugiat.
-        </li>
-        <li>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
-          fugiat.
+          <b> Notice:</b>
+          <ul>
+            <li>The Light and Dark buttons are in beta phase.(Try avoiding)</li>
+          </ul>
         </li>
       </ul>
     </div>
@@ -72,16 +89,13 @@
             id="name"
             placeholder="Enter your name"
           />
-          <div id="img_User">
-            <p>Upload your Photo:</p>
-            <input
-              class="inp"
-              type="file"
-              name="File"
-              id="file"
-              placeholder="Upload Image"
-            />
-          </div>
+          <input
+            class="inp"
+            type="text"
+            name="File"
+            id="file"
+            placeholder="Paste the image link"
+          />
           <textarea
             class="inp"
             name="Desc"
