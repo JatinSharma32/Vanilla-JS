@@ -2,3 +2,7 @@
             : Some Design updates in help section
             : Added feature which checks if any field is empty
             : Also if About field is longer(more then 210 char), then it will be shorten down.
+
+[11 Sep 2022]: Added a feature using which user can remove any record
+             : To do it hover on the image and then click on delete option
+             : If you want to remove the delete option just click on the image
