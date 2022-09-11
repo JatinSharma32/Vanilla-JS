@@ -8,14 +8,20 @@ btn.addEventListener("click", () => {
   if (a[0].value == "") {
     count = 1;
     a[0].style.borderColor = "red";
+  } else {
+    a[0].style.borderColor = "#727070";
   }
   if (a[1].value == "") {
     count = 1;
     a[1].style.borderColor = "red";
+  } else {
+    a[1].style.borderColor = "#727070";
   }
   if (a[2].value == "") {
     count = 1;
     a[2].style.borderColor = "red";
+  } else {
+    a[2].style.borderColor = "#727070";
   }
   if (a[2].value.length > 212) {
     a[2].value = a[2].value.slice(1, 210);
