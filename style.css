@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   width: 100%;
   color: black;
-  background-image: url(imgs/background\ 1.jpg);
+  background-image: url(imgs/Back.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -71,14 +71,24 @@ ul {
 -----------------------------------------------------------------------------------------------------
 */
 
-#box {
-  width: 60%;
-  margin: 2vh auto;
-  min-height: 50vh;
+main {
+  display: flex;
+  margin: 10vh 3vw;
+}
+#Stick {
+  width: 25%;
+  position: sticky;
+  top: 95px;
+  height: 35vh;
+}
+.box {
+  width: fit-content;
+  margin: 2vh 1vw;
+  min-height: 35vh;
   background-color: rgba(165, 165, 165, 0.583);
   border-radius: 10px;
   backdrop-filter: blur(10px);
-  padding: 5px 5px;
+  padding: 1.5rem 1.5rem;
   z-index: 3;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -86,8 +96,8 @@ ul {
 input,
 textarea,
 #img_User p {
-  width: 90%;
-  margin: 2px auto;
+  width: 20vw;
+  margin: 2px auto 10px auto;
   padding: 5px 10px;
   resize: none;
   border: 3px #727070 solid;
@@ -115,13 +125,24 @@ textarea,
   border: 3px #727070 solid;
   background-color: white;
 }
+#Buttons {
+  display: flex;
+}
+#Search {
+  background-color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  border: 3px #727070 solid;
+  border-radius: 15px;
+  margin: 2px auto 2px auto;
+}
 #add {
   background-color: white;
   width: fit-content;
   padding: 5px 10px;
   border: 3px #727070 solid;
   border-radius: 15px;
-  margin: 2px 4% 2px auto;
+  margin: 2px auto 2px auto;
 }
 .line {
   width: 50%;
@@ -132,7 +153,7 @@ textarea,
 
 /* Records */
 .record {
-  width: 90%;
+  width: 100%;
   background-color: white;
   display: flex;
   height: 100px;
@@ -144,8 +165,8 @@ textarea,
   z-index: 5;
   transition: width 2s, padding 2s;
 }
-
 .big_cont {
+  width: 100%;
   display: flex;
   justify-content: center;
   margin: 5px auto;
@@ -164,7 +185,9 @@ textarea,
   padding: 0px;
   width: 0px;
 }
-
+#Results {
+  width: 75%;
+}
 .record p,
 .record p span {
   font-size: 13px;
@@ -201,6 +224,15 @@ header {
   position: sticky;
   top: 0px;
   z-index: 10;
+}
+.title {
+  font-size: 1.5rem;
+}
+#empty {
+  height: 100%;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
 }
 
 /* Help section */

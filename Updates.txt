@@ -6,3 +6,7 @@
 [11 Sep 2022]: Added a feature using which user can remove any record
              : To do it hover on the image and then click on delete option
              : If you want to remove the delete option just click on the image
+
+[18 Sep 2022]: New Feature added for Searching and deleting in the records
+             : Some Layout and Design changes
+             : Added Night and Day mode

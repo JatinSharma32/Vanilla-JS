@@ -59,6 +59,7 @@
               Replaced input for image with Image link(URL) Insted of actual
               file
             </li>
+            <li>Added Searching Feature</li>
           </ul>
         </li>
         <div class="line_long"></div>
@@ -85,7 +86,7 @@
       </nav>
     </header>
     <main>
-      <div id="box">
+      <div class="box" id="Stick">
         <div class="input">
           <input
             class="inp"
@@ -109,11 +110,15 @@
             rows="3"
             placeholder="Enter your description"
           ></textarea>
-          <button id="add">Add below</button>
+          <div id="Buttons">
+            <button id="add">Add below</button>
+            <button id="Search">Search</button>
+          </div>
         </div>
-        <div class="line"></div>
-        <!--  -->
+      </div>
+      <div class="box" id="Results">
         <div id="cont">
+          <div id="empty">NO RECORDS</div>
           <!-- <div class="big_cont">
             <div class="record">
               <img src="imgs/user1.png" alt="" width="50px" height="60px" />
@@ -134,7 +139,6 @@
             <div id="delete">Delete</div>
           </div> -->
         </div>
-        <!--  -->
       </div>
     </main>
     <script src="app.js"></script>
